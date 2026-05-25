@@ -264,3 +264,16 @@ header{
     
 }
 /* footer */
+footer{
+    background-color: #000000;
+    
+}
+
+.footer-box{
+    width: 1440px;
+    height: 336px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
