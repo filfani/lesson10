@@ -7,7 +7,8 @@ header{
 
 }
 .container-header {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 96px;
     display: flex;
     margin: 0 auto;
@@ -43,7 +44,8 @@ header{
 
 }
 .container-main{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 556px;
     display: flex;
     column-gap: 130px;
@@ -107,10 +109,11 @@ header{
 }
 
 .container-box2{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 245px;
     display: flex;
-    gap: 30px;
+    column-gap: 30px;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
@@ -155,7 +158,8 @@ header{
   height: 620px;
 }
 .container2{
-    width: 1140px;
+    max-width: 1440px;
+    width: 100%;
     height: 428px;
     display: flex;
     margin: 0 auto;
@@ -200,16 +204,13 @@ header{
 }
 /* section4 */
 
-.section4{
-    
-}
 
 .background-image{
     background-image: url(../images/CTAImg-Desktop-1440px.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100vl;
+    width: 100%;
     height: 564px;
     position: relative;
    
@@ -251,7 +252,7 @@ header{
     text-align: center;
     background-color: #F3F3F3;
     border-radius: 24px;
-    margin-left: 230px;
+    margin: 0 auto;
     padding-top: 8px;
 }
 .box-text{
@@ -266,13 +267,15 @@ header{
 /* footer */
 footer{
     width:100%;
-    height: 336px;
+    min-height: 336px;
+    height: auto;
     background-color: #000000;
     
 }
 
 .footer-box{
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     height: 144px;
     display: flex;
     margin: 0 auto;
@@ -316,5 +319,5 @@ footer{
 
 }
 .foot-name3{
-    opacity: 40%;
+    opacity: 0.4;
 }
