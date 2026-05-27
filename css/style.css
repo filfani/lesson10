@@ -422,13 +422,16 @@ footer{
         height: 96px;
         flex-shrink: 0;
         margin-bottom: 153px;
+        margin-top: 0;
+        padding-top: 0;
 
     }
 
     .text-block {
         width: 415.5px;
         height: 185px;
-        padding-top: 30px;
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
