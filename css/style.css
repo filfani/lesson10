@@ -156,37 +156,43 @@ header{
 
 }
 /* section3 */
-.section3{
-  background-color: #000000;
-  width: 100%;
-  height: 620px;
-  padding-left: 150px;
+.section3 {
+    background-color: #000000;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.container2{
+.container2 {
     max-width: 1440px;
-    width: 100%;
     height: 428px;
     display: flex;
-    margin: 0 auto;
-    column-gap: 133px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 0 165px;
 }
 
-.section3-image{
-    background-image: url(../images/secondSectionImg-Desktop-1440px.jpg);
+.section3-image {
+    width: 503.5px;
+    min-width: 503.5px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-image: url(../images/secondSectionImg-Wide-1440px+.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 504px;
-    height: 428px;
-    margin-top: 96px;
-    border-radius: 12px;
 }
 
-.section-about{
-    width: 504px;
-    height: 268px;
-    padding-top: 138px;
+.section-about {
+    width: 503.5px;
+    height: 428px;
+    height: auto;
+    padding-top: 0;
 }
 .section-about .wraper2{
     font-size: 24px;
@@ -369,8 +375,6 @@ footer{
         
     }
 
-}
-@media (max-width: 1024px) {
     .container-box2 {
         max-width: 1024px;
         padding: 39px 32px;
@@ -381,19 +385,50 @@ footer{
         flex: 1;
         max-width: 279.33px;
     }
-}
-/* @media (max-width: 1024px) {
-    .section-about{
-        flex-direction: column;
-        column-gap: 65px;
-        max-width: 1024px;
+    .section3-image{
         width: 100%;
+        height: 450px;
+    }
+   
+    .section3 {
         height: 895px;
-        text-align: center;
-        margin: 0 auto;
-    } */
+    }
+
+    .container2 {
+        flex-direction: column;
+        width: 960px;
+        height: auto;
+        padding: 64px 32px;
+        column-gap: 0;
+        row-gap: 32px;
+    }
+
     .section3-image {
         width: 960px;
+        min-width: 960px;
         height: 550px;
     }
+
+    .section-about {
+        width: 960px;
+        height: 185px;
+        display: flex;
+        column-gap: 32px;
+        align-items: flex-start;
+    }
+
+    .section-about .wraper2 {
+        width: 415.5px;
+        height: 96px;
+        flex-shrink: 0;
+        margin-bottom: 153px;
+
+    }
+
+    .text-block {
+        width: 415.5px;
+        height: 185px;
+        padding-top: 30px;
+    }
 }
+
