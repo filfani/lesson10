@@ -441,13 +441,7 @@ footer{
     .text-block {
         width: 415.5px;
         height: 185px;
-        margin-top: 0;
-        padding-top: 0;
-    }
-
-footer {
-        height: 309px;
-        min-height: 309px;
+        padding-top: 30px;
     }
 
     .footer-box {
